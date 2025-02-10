@@ -63,7 +63,7 @@ int main() {
 
     double resultado = calcularTarifa(horas, dia);
     if (resultado == -1) {
-        cout << "Error" << endl;
+        cout << "ERROR" << endl; // profesorcito cambio Error por ERROR
     } else {
         printf("%.2f\n", resultado);
     }
